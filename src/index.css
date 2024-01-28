@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+p {margin: 0; padding: 0;}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 16px;
+
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.loginBox {
+  width: 500px;
+  margin: 100px auto 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 60px;
+}
+input.custom {
+  width: 100%;
+  margin: 5px 0 20px;
+  padding: 10px 16px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+button {
+  height: 38px;
+  line-height: 38px;
+  border: 0 none;
+  padding: 0;
+  background: green;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  margin-top: 10px;
+  padding: 0 30px;
+}
+button.loginbtn { width: 100%;}
+header {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.sidebar {
+  width: 300px;
+  background: black;
+  color: white;
+  position: fixed;
+  height: calc(100vh - 68px);
+  top: 68px;
+  left: 0;
+  padding: 20px;
+}
+.sidebar li p {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  float: left;
+  width: 100%;
+  color: white;
+  transition: .3s;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.sidebar li p:hover, .sidebar li p.active {
+  background: #ee5726;
+  border-radius: 6px;
+}
+.logout {
+  position: absolute;
+  right: 40px;
+  top: 22px;
+  cursor: pointer;
+}
+.pageLayout {
+  margin-left: 340px;
+  width: calc(100% - 340px);
+}
+.loginTxt {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 13px;
+  color: rgba(0, 0, 0, .6);
+}
+label.error {
+  font-size: 16px;
+}
+.error {
+  color: red;
+}
+input.custom.error { border-color: red;}
+.inputBox {
+  position: relative;
+}
+.inputBox p {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 3px;
+  font-size: 12px;
+}
+button:disabled {
+  cursor: default;
+  background: rgb(174, 170, 170);
+}

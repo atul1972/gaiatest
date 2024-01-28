@@ -1,0 +1,27 @@
+{
+    "loginData": [
+        {"login_id": "indivisual@gmail.com", "password": "12345678"},
+        {"login_id": "corporate@gmail.com", "password": "12345678"}
+    ],
+    "menuData":[
+        {
+            "username":"indivisual@gmail.com",
+            "role":"indivisual",
+            "modules":[
+                {"module_name":"Basic Details"},
+                {"module_name":"Address Details"},
+                {"module_name":"Personal Details"}
+            ]
+        },
+        {
+            "username":"corporate@gmail.com",
+            "role":"corporate",
+            "modules":[
+                {"module_name":"Company Details"},
+                {"module_name":"Address Details"},
+                {"module_name":"Contact Personal Details"},
+                {"module_name":"Corporate Details"}
+            ]
+        }
+    ]
+}
